@@ -1,7 +1,7 @@
-library(bannerCommenter)
+library(bannerCommenter) # to get a more visible header
 banner("Script name: ",
        "Idea of Script:",
-       "Start Date: Feb 12 2022", 
-       "last modification: ",
-       "version: ",
+       "Start Date: #Date ", 
+       "last modification:#Date ",
+       "version:#Number ",
        emph = TRUE)
